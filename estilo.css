@@ -203,3 +203,74 @@ button:hover {
     width: 100%;
   }
 }
+.pagina-sobre {
+  width: 100%;
+  max-width: 700px;
+  padding: 50px 20px;
+}
+
+.card-sobre {
+  background: white;
+  padding: 50px 45px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.texto-sobre {
+  color: #555;
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin: 20px 0 40px;
+  text-align: left;
+}
+
+.valores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.valor-item {
+  flex: 1;
+  min-width: 180px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.valor-item h3 {
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.valor-item p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .card-sobre {
+    padding: 35px 25px;
+  }
+}
+.link-secundario {
+  margin-top: 24px;
+  font-size: 0.9em;
+}
+
+.link-secundario a {
+  color: #999;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link-secundario a:hover {
+  color: #1a1a1a;
+}
